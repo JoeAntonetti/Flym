@@ -372,23 +372,15 @@ public class HomeActivity extends BaseActivity implements LoaderManager.LoaderCa
         switch (mCurrentDrawerPos) {
             case SEARCH_DRAWER_POSITION:
                 getSupportActionBar().setTitle(android.R.string.search_go);
-                getSupportActionBar().setIcon(R.drawable.action_search);
                 break;
             case 0:
                 getSupportActionBar().setTitle(R.string.all);
-                getSupportActionBar().setIcon(R.drawable.ic_statusbar_rss);
                 break;
             case 1:
                 getSupportActionBar().setTitle(R.string.favorites);
-                getSupportActionBar().setIcon(R.drawable.rating_important);
                 break;
             default:
                 getSupportActionBar().setTitle(mTitle);
-                if (mIcon != null) {
-                    getSupportActionBar().setIcon(mIcon);
-                } else {
-                    getSupportActionBar().setIcon(null);
-                }
                 break;
         }
 
