@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="black">#000000</color>
+    <color name="nav_drawer_background">#ffffff</color>
     <color name="light_theme_color_primary">#247ab0</color>
     <color name="light_theme_color_primary_dark">#175073</color>
     <color name="dark_theme_color_primary">#175073</color>

@@ -19,6 +19,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
+        android:textColor="#FFFFFF"
         android:layout_toLeftOf="@+id/sortItem"
         android:layout_toRightOf="@id/indicator"
         android:drawablePadding="3dp"
